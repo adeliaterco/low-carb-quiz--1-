@@ -637,7 +637,7 @@ export default function QuizSteps({ initialData, onComplete }: QuizStepsProps) {
             </div>
           )}
 
-          {/* Enhanced Social Proof - Matching the image design */}
+          {/* Enhanced Social Proof - Matching the image design - TEXTO CORRIGIDO */}
           {step.type === "social" && (
             <div className="mb-8">
               {/* Main testimonial card */}
@@ -686,12 +686,12 @@ export default function QuizSteps({ initialData, onComplete }: QuizStepsProps) {
                   />
                 </div>
 
-                <h3 className="font-bold text-center mb-4 text-lg">
+                <h3 className="font-bold text-center mb-4 text-lg text-gray-900">
                   People rave about FlourCraft's Learning Experience
                 </h3>
 
                 <div className="flex items-center justify-center mb-2">
-                  <span className="text-sm text-gray-600 mr-2">Outstanding</span>
+                  <span className="text-sm text-gray-700 mr-2 font-medium">Outstanding</span>
                   <div className="flex space-x-1">
                     {[1, 2, 3, 4, 5].map((i) => (
                       <span key={i} className="text-green-500 text-lg">
@@ -699,7 +699,7 @@ export default function QuizSteps({ initialData, onComplete }: QuizStepsProps) {
                       </span>
                     ))}
                   </div>
-                  <span className="ml-2 text-gray-600 font-semibold">4.8/5</span>
+                  <span className="ml-2 text-gray-800 font-semibold">4.8/5</span>
                 </div>
               </div>
 
@@ -736,29 +736,30 @@ export default function QuizSteps({ initialData, onComplete }: QuizStepsProps) {
                       height={32}
                     />
                     <div className="w-8 h-8 bg-gray-300 rounded-full border border-white flex items-center justify-center">
-                      <span className="text-xs font-semibold text-gray-600">+235</span>
+                      <span className="text-xs font-semibold text-gray-700">+235</span>
                     </div>
                   </div>
 
                   <div className="flex-1">
-                    <p className="text-sm font-semibold text-gray-800">4.9 rating from 312 Reviews</p>
+                    <p className="text-sm font-semibold text-gray-900">4.9 rating from 312 Reviews</p>
                   </div>
                 </div>
               </div>
             </div>
           )}
 
-          {/* Enhanced Credibility with image - FIXED CROPPING */}
+          {/* Enhanced Credibility with image - FIXED CROPPING - TEXTO CORRIGIDO */}
           {step.type === "credibility" && (
             <div className="mb-8 text-center">
               <div className="space-y-6">
                 {/* Text content - ATUALIZADO */}
                 <div className="space-y-4">
-                  <p className="text-gray-600 text-base">
-                    <strong>35 Detailed step-by-step guides</strong>, interactive cookbooks & smart shopping lists
+                  <p className="text-gray-800 text-base font-medium">
+                    <strong className="text-gray-900">35 Detailed step-by-step guides</strong>, interactive cookbooks &
+                    smart shopping lists
                   </p>
-                  <p className="text-gray-600 text-base">
-                    <strong>650+ Nutritionist-approved</strong> GF recipes
+                  <p className="text-gray-800 text-base font-medium">
+                    <strong className="text-gray-900">650+ Nutritionist-approved</strong> GF recipes
                   </p>
                 </div>
 
