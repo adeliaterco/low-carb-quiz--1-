@@ -210,13 +210,13 @@ export default function OfferPage({ quizData }: OfferPageProps) {
             </div>
           </div>
 
-          {/* Testimonials with Images - Mobile Stack */}
+          {/* Testimonials with Images - Mobile Stack - TEXTO CORRIGIDO */}
           <div className="mb-6 sm:mb-8">
-            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-center mb-4 sm:mb-6">
+            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-center mb-4 sm:mb-6 text-gray-900">
               What FlourCraft Members Are Saying:
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-              <div className="bg-yellow-50 p-3 sm:p-4 rounded-lg">
+              <div className="bg-yellow-50 p-3 sm:p-4 rounded-lg border border-yellow-200">
                 <div className="flex items-center mb-3">
                   <img
                     src="https://optimalhealthscout.shop/wp-content/uploads/2025/06/3-DEPOIMENTO.png"
@@ -226,21 +226,21 @@ export default function OfferPage({ quizData }: OfferPageProps) {
                   <div>
                     <div className="flex mb-1">
                       {[1, 2, 3, 4, 5].map((i) => (
-                        <span key={i} className="text-yellow-400 text-sm">
+                        <span key={i} className="text-yellow-500 text-sm">
                           ⭐
                         </span>
                       ))}
                     </div>
-                    <p className="text-xs font-semibold">Jennifer K., Austin TX</p>
+                    <p className="text-xs font-semibold text-gray-800">Jennifer K., Austin TX</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm italic">
+                <p className="text-xs sm:text-sm text-gray-700 font-medium leading-relaxed">
                   "Down 18 pounds in 3 weeks and my brain fog is GONE! These recipes are so good, my husband asks for
                   seconds every night."
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-3 sm:p-4 rounded-lg">
+              <div className="bg-blue-50 p-3 sm:p-4 rounded-lg border border-blue-200">
                 <div className="flex items-center mb-3">
                   <img
                     src="https://optimalhealthscout.shop/wp-content/uploads/2025/05/05.png"
@@ -250,21 +250,21 @@ export default function OfferPage({ quizData }: OfferPageProps) {
                   <div>
                     <div className="flex mb-1">
                       {[1, 2, 3, 4, 5].map((i) => (
-                        <span key={i} className="text-yellow-400 text-sm">
+                        <span key={i} className="text-yellow-500 text-sm">
                           ⭐
                         </span>
                       ))}
                     </div>
-                    <p className="text-xs font-semibold">Mark D., Phoenix AZ</p>
+                    <p className="text-xs font-semibold text-gray-800">Mark D., Phoenix AZ</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm italic">
+                <p className="text-xs sm:text-sm text-gray-700 font-medium leading-relaxed">
                   "Finally! A program that actually works for celiac disease. My stomach issues vanished and I have
                   energy to play with my kids again."
                 </p>
               </div>
 
-              <div className="bg-green-50 p-3 sm:p-4 rounded-lg sm:col-span-2 lg:col-span-1">
+              <div className="bg-green-50 p-3 sm:p-4 rounded-lg border border-green-200 sm:col-span-2 lg:col-span-1">
                 <div className="flex items-center mb-3">
                   <img
                     src="https://optimalhealthscout.shop/wp-content/uploads/2025/06/2fc1e47b2931f00666611ff2960c9c3f.jpg"
@@ -274,15 +274,15 @@ export default function OfferPage({ quizData }: OfferPageProps) {
                   <div>
                     <div className="flex mb-1">
                       {[1, 2, 3, 4, 5].map((i) => (
-                        <span key={i} className="text-yellow-400 text-sm">
+                        <span key={i} className="text-yellow-500 text-sm">
                           ⭐
                         </span>
                       ))}
                     </div>
-                    <p className="text-xs font-semibold">Lisa M., Denver CO</p>
+                    <p className="text-xs font-semibold text-gray-800">Lisa M., Denver CO</p>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm italic">
+                <p className="text-xs sm:text-sm text-gray-700 font-medium leading-relaxed">
                   "The step-by-step guides are incredible! I went from ordering takeout 5x/week to making bakery-quality
                   bread at home."
                 </p>
@@ -317,7 +317,7 @@ export default function OfferPage({ quizData }: OfferPageProps) {
             </div>
           </div>
 
-          {/* Guarantee - Mobile Optimized */}
+          {/* Guarantee - Mobile Optimized - TEXTO CORRIGIDO */}
           <div className="text-center mb-4 sm:mb-6">
             <div className="inline-flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-4 bg-green-100 px-4 sm:px-8 py-4 sm:py-6 rounded-2xl sm:rounded-full border-4 border-green-500">
               <div className="w-12 h-12 sm:w-16 sm:h-16 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
@@ -328,15 +328,15 @@ export default function OfferPage({ quizData }: OfferPageProps) {
                 <div className="text-green-700 font-semibold text-sm sm:text-base">60-Day Money Back Promise</div>
               </div>
             </div>
-            <p className="text-gray-600 mt-3 sm:mt-4 text-sm sm:text-base px-2">
-              <strong>Try FlourCraft risk-free for 60 days.</strong> If you don't feel more energetic, lose weight, and
-              absolutely love the recipes, we'll refund every penny. No questions asked.
+            <p className="text-gray-700 mt-3 sm:mt-4 text-sm sm:text-base px-2 font-medium">
+              <strong className="text-gray-900">Try FlourCraft risk-free for 60 days.</strong> If you don't feel more
+              energetic, lose weight, and absolutely love the recipes, we'll refund every penny. No questions asked.
             </p>
           </div>
 
-          {/* Scarcity - Mobile Optimized */}
+          {/* Scarcity - Mobile Optimized - TEXTO CORRIGIDO */}
           <div className="bg-red-100 border-2 border-red-500 rounded-lg p-3 sm:p-4 text-center">
-            <p className="text-red-800 font-bold text-sm sm:text-base">
+            <p className="text-red-800 font-bold text-sm sm:text-base leading-relaxed">
               ⚠️ WARNING: This flash sale price is only available for the next 23 people. After that, the price returns
               to $458.
             </p>
